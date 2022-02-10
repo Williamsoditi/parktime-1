@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Parktime</title>
+    <link rel="stylesheet" href="/css/profile.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="uploadimage">
+    
+      <h1>Upload photo</h1>
+      <canvas id= "canv1" ></canvas>
+      
+      <p>
+      Filename:
+      <input type="file" multiple="false" accept="image/*" id=finput onchange="upload()">
+      </p>
+    </div>
+    <div class="title">Personal Information</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="text" placeholder="Enter your phone number" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Plate Number</span>
+            <input type="text" placeholder="Enter your plate number" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Car Type</span>
+            <input type="text" placeholder="Enter car type" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Secondary Email</span>
+            <input type="text" placeholder="Enter email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Car Model</span>
+            <input type="text" placeholder="enter your car model" required>
+          </div>
+        </div>
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <input type="radio" name="gender" id="dot-3">
+          <span class="gender-title">Gender</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Male</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Female</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="gender">Prefer not to say</span>
+            </label>
+            
+          </div>
+        
+      </div>
+      <div class="gender-details">
+        <input type="radio" name="gender" id="dot-1">
+        <input type="radio" name="gender" id="dot-2">
+        <input type="radio" name="gender" id="dot-3">
+        <span class="gender-title">Disability</span>
+        <div class="category">
+          <label for="dot-1">
+          <span class="dot one"></span>
+          <span class="gender">No</span>
+        </label>
+        <label for="dot-2">
+          <span class="dot two"></span>
+          <span class="gender">Yes</span>
+        </label>
+        <label for="dot-3">
+        
+          
+        </div>
+        </div>
+      </form>
+        
+  
+      <button id="start-btn" class="btn">Submit</button>
+      </div>
+  </div>
+  
+<script src="/js/#"></script>
+</body>
+</html>

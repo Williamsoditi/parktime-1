@@ -1,0 +1,79 @@
+.logo{
+    height: 30px;
+    float: left;
+    margin: 1px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: #00FF80 ;
+    justify-content: space-around;
+    
+}
+
+.navmenu a{
+    justify-content: space-around;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-right: 50px;
+}
+
+.navmenu a:active{
+    color: #F2EFEF;
+    text-decoration: solid, #F2EFEF, 5px ;
+}
+
+
+h4{
+  text-align: center;
+  color: #ffffff;
+  height: 70px;
+  color: black;
+  
+}
+
+.footer{
+    background-color: #14e91b;
+    height: 30px;
+}
+.btn{
+    background-color:  blue;
+    color: #ffffff;
+
+}
+.form-select-sm{
+    width: 68%;
+    margin-left: 50px;
+}
+.card-2{
+    background-color:#14e91b ;
+}
+.date{
+    width: 68%;
+}
+
+
+
+
+input[type="number"]::-webkit-outer-spin-button, 
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+
+
+
+
+
+
+
+
+
+
+

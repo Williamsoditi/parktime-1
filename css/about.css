@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: #00FF80;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation span{
+    padding: 15px;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+a:hover{
+    color: black;
+}
+    
+footer{
+    background-color: #00FF80;
+    padding: 10px;
+}
+.logos{
+    display: inline;
+}
+.quit{
+    float: right;
+    padding: 20px;
+}
+.logos{
+    list-style: none;
+}
+.info{
+    text-align: center;
+    background-image: url(/assets/car.jpg);
+    height: 50vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    opacity: 0.8;
+   
+}
+.info h2{
+    padding-top: 10vw;
+    font-weight: bolder;
+    font-size: 5vw;
+}
+.info p{
+    font-size: 2vw;
+}
+
+
+/* .info image{
+    height: 50vw;
+} */
+button{
+    padding: 15px;
+    border-radius: 9px;
+    border: none;
+    background-color: #00FF80;
+    cursor: wait;
+    font-weight: bold;
+}
+button:hover{
+    color: red;
+}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.members{
+    display: flex;
+    justify-content: space-evenly;
+     margin-top: -10vw;
+    
+
+  
+    
+}
+.members img{
+   margin-top: 30px;
+}
+
+.feedback{
+    padding: 15px;
+    border: none;
+    border-radius: 9px;
+    margin: 40px;
+    margin-left: 46%;
+    background-color: #00FF80;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+}
+.feedback:hover{
+    color: red;
+}
+.feeds{
+    text-align: center;
+    padding: 50px;
+    background-color: #F2EFEF;
+    height: 30vw;
+}
+.feeds h2{
+    padding: 30px;
+}
+.image{
+    display: flex;
+    justify-content: right;
+  
+    
+}
+ .memberone{
+    width: 50%;
+    box-shadow: 10px 10px 10px  rgba(136, 136, 136, 0.2);
+    margin-left: 10px;
+    padding: 20px;
+    text-align: center;
+    padding-top: 4vw;
+    height: 20vw;
+    background-color: white;
+}
+.membertwo{
+    width: 50%;
+    box-shadow: 10px 10px 10px  rgba(136, 136, 136, 0.2);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    padding-top: 4vw;
+    text-align: center;
+    background-color: white;
+}
+ .memberthree{
+    width: 50%;
+    box-shadow: 10px 10px 10px  rgba(136, 136, 136, 0.2);
+    margin-right: 10px;
+    padding: 20px;
+    padding-top: 4vw;
+    text-align: center;
+    background-color: white;
+}
+
+.reserve{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vw;
+    padding: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 70px;
+    background-color:#F2EFEF ;
+}
+.reserve button{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.enquiries{
+    padding: 50px;
+    padding-top: 30px;
+}
+
+.about{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+
+}
+.popote{
+    text-align: center;
+    width: 40%;
+    margin-top: 2vw;
+    padding: 10px;
+ 
+
+}
+.popote img{
+    padding-bottom: 2vw;
+}
+.popote h3{
+    padding-bottom: 2vw;
+}

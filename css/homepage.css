@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: #00FF80 ;
+    justify-content: space-around;
+    
+}
+
+.navmenu a{
+    justify-content: space-around;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-right: 50px;
+}
+
+.navmenu a:active{
+    color: #F2EFEF;
+    text-decoration: solid, #F2EFEF, 5px ;
+}
+.home{
+ background-color: white;
+}
+.phone{
+    background-color: whitesmoke;
+}
+
+
+.footer{
+    background-color: #00FF80;
+}
