@@ -41,7 +41,7 @@ footer{
 }
 .info{
     text-align: center;
-    background-image: url(/assets/car.jpg);
+    background-image: url(/images/car.jpg);
     height: 50vw;
     background-repeat: no-repeat;
     background-size: cover;
